@@ -135,7 +135,7 @@ To start, we'll transfer all of the pages from our "simple" example over to a Fl
 
 ## Resources:
 
-- [Flask](http://flask.pocoo.org/) homepage
+- [Flask homepage](http://flask.pocoo.org/)
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)
 - [More about function decorators.](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 - [Errors and Exceptions](https://docs.python.org/2/tutorial/errors.html)
