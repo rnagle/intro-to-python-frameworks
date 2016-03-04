@@ -127,11 +127,11 @@ So, in this example `@app.route("/")` applies to `def hello()`.
 
 To start, we'll transfer all of the pages from our "simple" example over to a Flask-based `app.py` file.
 
-Read about the set up of our `app.py` file.
+[Read about the set up of our `app.py` file](/simple-to-flask.md).
 
 ### As promised, dynamic pages for our cats:
 
-We'll cover setting up dynamic routes in our `app.py` file.
+[We'll cover setting up dynamic routes in our `app.py` file](/dynamic-kittens.md).
 
 ## Resources:
 
