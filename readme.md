@@ -105,7 +105,7 @@ These nine lines of code comprise a fully-functioning Flask application. Let's t
 
 In the example above, note the line: `@app.route("/")`. This is a route definition.
 
-Routes are equivalent to URLs. By defining routes, you explicitly specify the URLs your application will respond to.
+Routes are equivalent to URLs. By defining routes, you're explicitly registering the URLs your application will respond to.
 
 Take the example above:
 
@@ -117,11 +117,15 @@ Below `@app.route("/")`, we're defining a function called "hello" which returns 
 
 In other words, we're saying "when the '/' URL is requested, respond with the string, 'Hello World!'"
 
-*Aside:* the `@app.route("/")` is called a function decorator (indicated by the "@" prefix).
+A couple things worth noting:
+
+This is how the entirety of web applications work. Whether Flask, [Node's Express](http://expressjs.com/), [Ruby's Sinatra](http://www.sinatrarb.com/) - these frameworks all work by mapping URLs and URL patterns to functions that return some document or resource.
+
+The `@app.route("/")` is called a function decorator (indicated by the "@" prefix).
 
 No need to worry much about how function decorators work behind the scenes. What's important is the function decorator applies to the function that immediately follows it.
 
-So, in this example `@app.route("/")` applies to `def hello()`.
+So, in this example `@app.route("/")` registers the "/" URL and says that the `def hello()` function should be used to respond to requests for that URL.
 
 ### Routes for our site:
 
