@@ -131,15 +131,15 @@ So, in this example `@app.route("/")` registers the "/" URL and says that the `d
 
 To start, we'll transfer all of the pages from our "simple" example over to a Flask-based `app.py` file.
 
-Read about the set up of our `app.py` file.
+[Read about the set up of our `app.py` file](/simple-to-flask.md).
 
 ### As promised, dynamic pages for our cats:
 
-We'll cover setting up dynamic routes in our `app.py` file.
+[We'll cover setting up dynamic routes in our `app.py` file](/dynamic-kittens.md).
 
 ## Resources:
 
-- [Flask](http://flask.pocoo.org/) homepage
+- [Flask homepage](http://flask.pocoo.org/)
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)
 - [More about function decorators.](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 - [Errors and Exceptions](https://docs.python.org/2/tutorial/errors.html)

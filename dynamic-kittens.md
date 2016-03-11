@@ -39,9 +39,11 @@ A non-negative number stored in the variable `index` means we have a match. Sinc
 
 The next thing we'll do is check the value of `index` and either:
 
-- Return a dynamically-rendered page for our kitten
-OR
-- Return an error message to let our users know we don't have a kitten by that name (e.g., a 404 Not found error)
+Return a dynamically-rendered page for our kitten
+
+*OR*
+
+Return an error message to let our users know we don't have a kitten by that name (e.g., a 404 Not found error)
 
     @app.route('/kitten/<name>')
     def kitten(name):
@@ -49,7 +51,6 @@ OR
             index = FIRST_NAMES.index(name.upper())
         except ValueError:
             index = -1
-
         if index >= 0:
             return render_template("kitten.html", name=name.capitalize())
         else:
@@ -69,6 +70,6 @@ You can run the pre-built example `flask/app.py` by changing to the `flask` dire
     cd flask
     python app.py
 
-Then visit http://localhost:5000/kitten/adam to see your code in action!
+Then visit [http://localhost:5000/kitten/adam](http://localhost:5000/kitten/adam) to see your code in action!
 
-Also try visiting a non-name URL: http://localhost:5000/kitten/not_a_name to see your code fall back gracefully.
+Also try visiting a non-name URL: [http://localhost:5000/kitten/not_a_name](http://localhost:5000/kitten/not_a_name) to see your code fall back gracefully.
