@@ -59,13 +59,13 @@ Let's say you have A LOT of cats. An entire spreadsheet worth of cats. How might
 
 [Flask](http://flask.pocoo.org/) calls itself "a microframework for Python."
 
-It provides a relatively simple way of building dynamic web applications.
+It provides a relatively simple way of building dynamic web applications. We'll use it here to illustrate the advantages of using a framework to accelerate development.
 
-*Aside:*
+The key takeaway: fight the urge to write your own custom solution for a problem that's already been solved. You'll save yourself a lot of time, frustration, tears, etc.
 
-A bespoke solution probably isn't the right approach no matter if you're building a website or processing a dataset. Someone else has probably dealt with a similar issue and published open source code that can help.
+This applies no matter if you're building a website or processing a dataset. Someone has probably dealt with the same problem and published open source code that can help.
 
-Take a look at the [complexity of Flask](https://github.com/mitsuhiko/flask), for example:
+Take a quick look at the [complexity of Flask](https://github.com/mitsuhiko/flask), for example:
 
 - Large code base with many thousands of lines of code.
 - Large user base/community, which means lots of users to test and file bug reports.
@@ -143,3 +143,9 @@ We'll cover setting up dynamic routes in our `app.py` file.
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)
 - [More about function decorators.](http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/)
 - [Errors and Exceptions](https://docs.python.org/2/tutorial/errors.html)
+- [Python Package Index](https://pypi.python.org/pypi)
+- [Github](http://github.com/)
+
+## Next steps
+
+If you're working towards building a news app, your next step should be working through Ben Welsh's [first news app](https://github.com/ireapps/first-news-app) tutorial.
